@@ -1,5 +1,8 @@
-Parallesl copy files on one server.
+Parallel copying of files to one server.
 
-for example:
+Syntax:
+bash rssh.sh <src dir> <dst dir> <threads>
+
+For example:
 bash rssh.sh tmp/ /root/111 2 root@127.0.0.1
-bash rssh.sh <src dir> <dst dir> <count session>
+
